@@ -1,7 +1,7 @@
 // Service worker: makes the app load offline after the first visit.
 // Strategy: precache the app shell and data; serve from cache, refresh in the background.
 // Bump CACHE when any shipped file changes so phones pick up the new version.
-const CACHE = "vocab4000-v137";
+const CACHE = "vocab4000-v138";
 // Offline audio lives in its own cache so app updates never wipe a downloaded pack.
 const AUDIO_CACHE = "vocab4000-audio";
 const SHELL = [
@@ -11,8 +11,7 @@ const SHELL = [
   "./static/app.js",
   "./static/modern-dark.js",
   "./static/splash.js",
-  "./static/fonts/NotoSansArabic-Regular.ttf",
-  "./static/fonts/NotoSansArabic-Bold.ttf",
+  "./static/fonts/Vazirmatn.ttf",
   "./data/entries.js",
   "./manifest.webmanifest",
   "./icons/icon-192.png",

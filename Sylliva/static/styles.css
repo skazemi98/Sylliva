@@ -1,5 +1,4 @@
-@font-face { font-family: "VocabFA"; src: url("fonts/NotoSansArabic-Regular.ttf") format("truetype"); font-weight: 400; font-display: swap; }
-@font-face { font-family: "VocabFA"; src: url("fonts/NotoSansArabic-Bold.ttf") format("truetype"); font-weight: 600 700; font-display: swap; }
+@font-face { font-family: "VocabFA"; src: url("fonts/Vazirmatn.ttf") format("truetype"); font-weight: 100 900; font-display: swap; }
 /* Sylliva · v24
    Two hand-tuned palettes (dark = deep ink-blue, light = warm paper), one type scale, one radius scale.
    Layout: rail + top bar on wide screens, bottom tab bar on everything else. */
@@ -10,7 +9,7 @@
   --font-serif: Calistoga, Georgia, "Iowan Old Style", "Palatino Linotype", serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   --grad-accent: linear-gradient(135deg, #0052ff, #4d7cff);
-  --font-fa: "VocabFA", "Noto Sans Arabic", Tahoma, "Segoe UI", system-ui, sans-serif;
+  --font-fa: "VocabFA", "Vazirmatn", Vazir, Tahoma, "Segoe UI", system-ui, sans-serif;
   --r-xl: 24px;
   --r-lg: 18px;
   --r: 14px;
